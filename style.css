@@ -284,7 +284,7 @@ h1 {
   /* border: 2px solid black; */
 }
 
-@media screen and (max-width:786px) {
+@media screen and (min-width:786px) {
   .heading h1 {
     text-align: center;
     font-size: 1.5rem;
@@ -294,11 +294,22 @@ h1 {
   .input-container{
     margin-top: 1.5rem; 
   }
-  
- 
-  
-
-
 
 }
+
+
+@media screen and (max-width: 767px) {
+  /* CSS rules */
+    .heading h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem; 
+    
+  }
+  .input-container{
+    margin-top: 1.5rem; 
+  }
+
+}
+  
 
